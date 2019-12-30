@@ -1,12 +1,9 @@
-#### 目前搜索已升级为python3.7,包含历史记录搜索功能,tag为v3.0(支持多域). 需要openssl version >= 1.02
-#### 请执行 git pull && 编辑 ./qtalk_search/conf/configure.ini && ./qtalk_search/runme.sh
-#### 以下为 v1.0 部署步骤 
-
 #### ***搜索系统***
 --------------------------------------------------------------------------------
 #### **准备**：
 #### *前提*:
-        python3 (3以上都可以，以3.6为标准)
+        openssl version >= 1.02
+        python3.7 
                 sudo yum install https://centos7.iuscommunity.org/ius-release.rpm
                 sudo yum install python36u
         pip
