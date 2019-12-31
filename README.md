@@ -40,13 +40,13 @@
             "qtalkId":"jingyu.he",
             "cKey":"xxxxxxmyckey",
             "action":"",
-            "start":10,
-            "length":0
+            "start":0,
+            "length":10
         }
             *大小写重要, 都是string
 
             key     :  搜索关键字
-            qtalkId :  搜索人qtalk id
+            qtalkId :  搜索人userid@domain
             cKey    :  xxxxxxxx ckey规则
             action :  63:all 32:file 24:history 6:group 1:user //二进制111111 搜文件 搜群聊 搜单聊 共同群组 群组 用户 搜哪个哪个就个位就是1
             start   :  偏移量
