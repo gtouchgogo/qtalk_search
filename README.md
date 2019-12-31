@@ -49,7 +49,6 @@
             qtalkId :  搜索人qtalk id
             cKey    :  xxxxxxxx ckey规则
             action :  63:all 32:file 24:history 6:group 1:user //二进制111111 搜文件 搜群聊 搜单聊 共同群组 群组 用户 搜哪个哪个就个位就是1
-            action :  Q01-Q07 限定搜索内容
             start   :  偏移量
             length  :  长度
 #### **返回**:
