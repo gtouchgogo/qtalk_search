@@ -4,6 +4,9 @@
 #### *前提*:
         openssl version >= 1.02
         python3.7 
+                sudo yum groupinstall "Development Tools"
+                sudo yum install python36-devel
+
                 sudo yum install https://centos7.iuscommunity.org/ius-release.rpm
                 sudo yum install python36u
         pip
