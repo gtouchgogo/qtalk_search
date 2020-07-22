@@ -3,20 +3,20 @@
 #### **准备**：
 #### *前提*:
         openssl version >= 1.02
-        python3.7 
-                sudo yum groupinstall "Development Tools"
-                sudo yum install python36-devel
-
-                sudo yum install https://centos7.iuscommunity.org/ius-release.rpm
-                sudo yum install python36u
+        python3.7及以上 
+                https://www.python.org/downloads/source/ 选择最新tar包并下载
+                tar -zxvf Python-3.8.1.tgz
+                cd Python-3.8.1
+                ./configure
+                sudo make && make install
         pip
                 sudo yum -y install python-pip
-        外网接口/nginx等转发服务转发
-        postgresql10，相关字段参考qtalk
+        外网接口/nginx等转发服务
+        postgresql 10，相关字段参考qtalk
         所需模块见requirements.txt， 建议使用virtualenv部署模块所需环境
                 sudo pip install -U virtualenv （安装virtualenv）
                 sudo pip install --upgrade pip
-                virtualenv --system-site-packages -p python3.6 ./venv （在当前目录下创建venv环境）
+                virtualenv --system-site-packages -p python3.8 ./venv （在当前目录下创建venv环境）
                 启动环境
                 source venv/bin/activate
 
