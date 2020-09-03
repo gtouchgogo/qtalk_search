@@ -21,15 +21,15 @@ salt_uuid = uuid.uuid4().hex
 
 """修改这里"""
 custom_params = {
-    'host_id': 2,
-    'user_id': 'qchatadmin',
-    'user_name': 'qchat管理员',
+    'host_id': 1,
+    'user_id': 'newuser1',
+    'user_name': '新用户1',
     'password': '123456',
     'dep': '/测试',
     'department': '/',
     'gender': 1,
-    'host': 'qchat',
-    'ps_deptid': 'qchat',
+    'host': 'qtalk',
+    'ps_deptid': 'qtalk',
 }
 """"""
 
